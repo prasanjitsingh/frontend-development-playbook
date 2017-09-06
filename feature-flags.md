@@ -2,7 +2,7 @@
 
 ![](/assets/tracks.jpg)
 
-At Kayako we value feature flags as a vehicle for us to ship features to production quickly, increase quality of the features we do ship and shift the responsibility of enabling features from engineers to the Growth team.
+At Kayako we value feature flags as a vehicle that allows us to ship features to production quickly, increase quality of the features we do ship and shift the responsibility of enabling features from engineers to the Growth team.
 
 
 
