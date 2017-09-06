@@ -1,5 +1,7 @@
 # Feature Flagging Guidelines
 
+Below is the list of guidelines that we encourage all engineers to follow as they implement features in to our codebases.
+
 
 
 1. **No change is too small to be feature flagged**. Start with the mind set that a change will be feature flagged. If you choose not to, there should be considered reasoning behind why that’s the case
