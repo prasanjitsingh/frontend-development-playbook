@@ -12,5 +12,6 @@
     * [Implementing a Flag](feature-flags/development-workflow/implementing-a-flag.md)
     * [Enabling/Disabling a Flag](feature-flags/development-workflow/enablingdisabling-a-flag.md)
     * [Removing a Flag](feature-flags/development-workflow/removing-a-flag.md)
+  * [Patterns And Best Practices](feature-flags/patterns-and-best-practices.md)
   * [References](feature-flags/references.md)
 
