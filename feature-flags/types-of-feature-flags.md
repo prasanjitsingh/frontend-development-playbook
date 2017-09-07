@@ -18,7 +18,7 @@ A piece of work that is behind a `feature-` flag should generally be in a state 
 
 ## Operations flags
 
-_Prefix:_ ops`-`
+_Prefix:_ `ops-`
 
 _Expected Lifespan_: **short**
 
