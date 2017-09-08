@@ -4,8 +4,8 @@ There are no black and white rules when it comes to what and how to feature flag
 
 The following is a collection of suggestions, patterns, advice and rules of thumb that we’ve compiled from our experiences with feature flagging code changes.
 
-* Ensure enabled flags enable new functionality
-* Avoid mixing feature flag condition logic with other logic
+* [Ensure enabled flags enable new functionality](/feature-flags/patterns-and-best-practices/ensure-enabled-flags-enable-new-functionality.md)
+* [Avoid mixing feature flag condition logic with other logic](/feature-flags/patterns-and-best-practices/avoid-mixing-flag-condition-logic-with-other-logic.md)
 * Keep feature flagged code together so it can be deleted together
 * When changing the API of a component, duplicate it
 * When duplicating components, respect the original component name

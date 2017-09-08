@@ -18,7 +18,7 @@ price: computed('price', function() {
 
 **Handlebars**
 
-```css
+```js
 {{#if (variation "feature-apply-discount")}}
   {{priceWithDiscount}}
 {{else}}

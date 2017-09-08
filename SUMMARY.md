@@ -14,5 +14,6 @@
     * [Removing a Flag](feature-flags/development-workflow/removing-a-flag.md)
   * [Patterns And Best Practices](feature-flags/patterns-and-best-practices.md)
     * [Ensure Enabled Flags Enable New Functionality](feature-flags/patterns-and-best-practices/ensure-enabled-flags-enable-new-functionality.md)
+    * [Avoid Mixing Flag Condition Logic With App Logic](feature-flags/patterns-and-best-practices/avoid-mixing-flag-condition-logic-with-app-logic.md)
   * [References](feature-flags/references.md)
 
