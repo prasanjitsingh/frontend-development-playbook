@@ -2,8 +2,6 @@
 
 If your change is going to modify the API of a component or introduce component params that are only relevant to the new code, consider duplicating the component. Sure, this might feel like extra duplicate code, but it’s only temporary and it makes it much easier to understand the logic flow of the code paths.
 
-
-
 **Instead of:**
 
 ```js
@@ -18,9 +16,8 @@ If your change is going to modify the API of a component or introduce component 
   value=state.replyContents
 as |editor|}}
   {{!-- snip --}}
+{{/ko-text-editor}}
 ```
-
-
 
 **Consider:**
 
@@ -35,6 +32,7 @@ as |editor|}}
     value=state.replyContents
   as |editor|}}
     {{!-- snip --}}
+  {{/ko-text-editor}}
 {{else}}
   {{#ko-text-editor-old
     placeholder=(t "generic.add_a_note")
@@ -44,6 +42,7 @@ as |editor|}}
     value=state.replyContents
   as |editor|}}
     {{!-- snip --}}
+  {{/ko-text-editor-old}}
 {{/if}}
 ```
 
