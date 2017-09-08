@@ -9,7 +9,7 @@ If you find yourself wondering how to approach a particular implementation of a 
 * [Ensure enabled flags enable new functionality](/feature-flags/patterns-and-best-practices/ensure-enabled-flags-enable-new-functionality.md)
 * [Avoid mixing flag condition logic with other logic](/feature-flags/patterns-and-best-practices/avoid-mixing-flag-condition-logic-with-other-logic.md)
 * [Keep flagged code together so it can be deleted together](/feature-flags/patterns-and-best-practices/keep-flagged-code-together-so-it-can-be-deleted-together.md)
-* When changing the API of a component, duplicate it
+* [When changing the API of components, duplicate them](/feature-flags/patterns-and-best-practices/when-changing-the-api-of-components-duplicate-them.md)
 * When duplicating components, respect the original component name
 * Duplicate CP’s when dependent keys change based on feature flags
 

@@ -16,5 +16,6 @@
     * [Ensure Enabled Flags Enable New Functionality](feature-flags/patterns-and-best-practices/ensure-enabled-flags-enable-new-functionality.md)
     * [Avoid Mixing Flag Condition Logic With App Logic](feature-flags/patterns-and-best-practices/avoid-mixing-flag-condition-logic-with-app-logic.md)
     * [Keep Flagged Code Together So It Can Be Deleted Together](feature-flags/patterns-and-best-practices/keep-flagged-code-together-so-it-can-be-deleted-together.md)
+    * [When Changing The API Of Components, Duplicate Them](feature-flags/patterns-and-best-practices/when-changing-the-api-of-components-duplicate-them.md)
   * [References](feature-flags/references.md)
 
