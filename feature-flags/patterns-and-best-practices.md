@@ -10,7 +10,7 @@ If you find yourself wondering how to approach a particular implementation of a 
 * [Avoid mixing flag condition logic with other logic](/feature-flags/patterns-and-best-practices/avoid-mixing-flag-condition-logic-with-other-logic.md)
 * [Keep flagged code together so it can be deleted together](/feature-flags/patterns-and-best-practices/keep-flagged-code-together-so-it-can-be-deleted-together.md)
 * [When changing the API of components, duplicate them](/feature-flags/patterns-and-best-practices/when-changing-the-api-of-components-duplicate-them.md)
-* When duplicating components, respect the original component name
+* [When duplicating components, respect the original component name](/feature-flags/patterns-and-best-practices/when-duplicating-components-respect-the-original-component-name.md)
 * Duplicate CP’s when dependent keys change based on feature flags
 
 
