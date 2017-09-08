@@ -18,7 +18,7 @@ price: computed('price', function() {
 
 **Handlebars**
 
-```Handlebars
+```css
 {{#if (variation "feature-apply-discount")}}
   {{priceWithDiscount}}
 {{else}}
@@ -29,6 +29,4 @@ price: computed('price', function() {
 Make sure you refer to the feature flagging best practices and patterns section of this book for ideas on some effective ways to implement a feature flag in your code. And by all means, if you come across another or a better pattern, please contribute it back to this book.
 
 Also, make sure you remember to [create another PR to remove the feature flag](/feature-flags/when-to-remove-feature-flags.md) at this point as well.
-
-
 
