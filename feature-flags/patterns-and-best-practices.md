@@ -12,6 +12,7 @@ If you find yourself wondering how to approach a particular implementation of a 
 * [When changing the API of components, duplicate them](/feature-flags/patterns-and-best-practices/when-changing-the-api-of-components-duplicate-them.md)
 * [When duplicating components, respect the original component name](/feature-flags/patterns-and-best-practices/when-duplicating-components-respect-the-original-component-name.md)
 * Duplicate CP’s when dependent keys change based on feature flags
+* [Duplicate imports of static files](/feature-flags/patterns-and-best-practices/duplicate-imports-of-static-files.md)
 
 
 
