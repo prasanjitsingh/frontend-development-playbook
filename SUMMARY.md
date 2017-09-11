@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Shipping Features](shipping-features.md)
 * [Feature Flags](feature-flags.md)
   * [Feature Flagging Guidelines](feature-flags/feature-flagging-guidelines.md)
   * [Why We Use Feature Flags](feature-flags/why-we-use-feature-flags.md)
