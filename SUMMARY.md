@@ -2,12 +2,6 @@
 
 * [Introduction](README.md)
 * [Overview](overview.md)
-* [Shipping Features](shipping-features.md)
-  * [Overview](shipping-features/overview.md)
-  * [The Team](shipping-features/the-team.md)
-  * [Release Stages](shipping-features/release-stages.md)
-    * [Development](shipping-features/release-stages/development.md)
-    * [Internal Release](shipping-features/release-stages/internal-release.md)
 * [Feature Flags](feature-flags.md)
   * [Feature Flagging Guidelines](feature-flags/feature-flagging-guidelines.md)
   * [Why We Use Feature Flags](feature-flags/why-we-use-feature-flags.md)
@@ -27,4 +21,10 @@
     * [When Duplicating Components, Respect The Original Component Name](feature-flags/patterns-and-best-practices/when-duplicating-components-respect-the-original-component-name.md)
     * [Duplicate Imports Of Static Files](feature-flags/patterns-and-best-practices/duplicate-imports-of-static-files.md)
   * [References](feature-flags/references.md)
+* [Shipping Features](shipping-features.md)
+  * [Overview](shipping-features/overview.md)
+  * [The Team](shipping-features/the-team.md)
+  * [Release Stages](shipping-features/release-stages.md)
+    * [Development](shipping-features/release-stages/development.md)
+    * [Internal Release](shipping-features/release-stages/internal-release.md)
 
