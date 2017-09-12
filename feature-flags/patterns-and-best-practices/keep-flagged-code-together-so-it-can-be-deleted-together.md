@@ -6,7 +6,7 @@ Try and keep the overhead of mentally parsing feature flag logic to a minimum. T
 
 ```js
 .then(() => {
-  if (variation('push-notifications')) {
+  if (variation('release-push-notifications')) {
     return this.get('realtimePush').registerUserDevice();
   }
 
@@ -16,13 +16,11 @@ Try and keep the overhead of mentally parsing feature flag logic to a minimum. T
 
 To remove this feature flag we would need to delete lines `2`, `4` and `6` and then outdent line `3`. This can cause extra mental overhead when trying to ensure the logic hasn’t changed when removing the feature flag, not to mention complicates the git diff for the person reviewing the code.
 
-
-
 **Consider:**
 
 ```js
 .then(() => {
-  if (!variation('push-notifications')) {
+  if (!variation('release-push-notifications')) {
     return true;
   }
 

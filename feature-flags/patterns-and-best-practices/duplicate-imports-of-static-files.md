@@ -1,6 +1,6 @@
 # Duplicate Imports Of Static Files
 
-If you are in a situation where you need to make a change to a static file that is imported and used in the code, you'll find that you're probably not able to use the variation helper in that file. 
+If you are in a situation where you need to make a change to a static file that is imported and used in the code, you'll find that you're probably not able to use the variation helper in that file.
 
 So, in a situation where you might be doing this:
 
@@ -17,8 +17,6 @@ export default [
 + 'security.customer.sso.jwt.service_name'
 ];
 ```
-
-
 
 **Consider:**
 
@@ -58,17 +56,13 @@ import fooOld from 'app/lib/foo-old';
 // snip
 
 things: computed(function() {
-  if (!variation('feature-new-things')) {
+  if (!variation('release-new-things')) {
     return fooOld;
   }
-  
+
   return foo;
 })
 ```
-
-
-
-
 
 
 

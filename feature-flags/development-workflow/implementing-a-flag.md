@@ -8,7 +8,7 @@ The first thing you should do is go and  read the [ember-launch-darkly README](h
 
 ```js
 price: computed('price', function() {
-  if (variation('feature-apply-discount')) {
+  if (variation('release-apply-discount')) {
     return this.get('price') * 0.8;
   }
 
@@ -19,7 +19,7 @@ price: computed('price', function() {
 **Handlebars**
 
 ```js
-{{#if (variation "feature-apply-discount")}}
+{{#if (variation "release-apply-discount")}}
   {{priceWithDiscount}}
 {{else}}
   {{price}}

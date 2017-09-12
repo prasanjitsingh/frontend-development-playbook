@@ -5,7 +5,7 @@ It can be difficult to quickly understand an `if` statement’s logic if it mixe
 **Instead of:**
 
 ```js
-if (variation('feature-cool-stuff') && (!foo || !bar)) {
+if (variation('release-cool-stuff') && (!foo || !bar)) {
   // do something amazing
 }
 ```
@@ -13,7 +13,7 @@ if (variation('feature-cool-stuff') && (!foo || !bar)) {
 **Consider:**
 
 ```js
-if (variation('feature-cool-stuff') {
+if (variation('release-cool-stuff') {
   if (!foo || !bar) {
     // do something amazing
   }
@@ -25,7 +25,7 @@ if (variation('feature-cool-stuff') {
 **Instead of:**
 
 ```js
-{{#if (and (variation "feature-cool-stuff") (or (not foo) (not foo)))}}
+{{#if (and (variation "release-cool-stuff") (or (not foo) (not foo)))}}
   {{!-- do something amazing --}}
 {{/if}}
 ```
@@ -33,7 +33,7 @@ if (variation('feature-cool-stuff') {
 **Consider:**
 
 ```js
-{{#if (variation "feature-cool-stuff")}}
+{{#if (variation "release-cool-stuff")}}
   {{#if (or (not foo) (not foo))}}
     {{!-- do something amazing --}}
   {{/if}}

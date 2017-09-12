@@ -6,11 +6,7 @@ Once a feature has been merged in to `master`, it is the engineer's job to follo
 
 For more info on this release lifecycle of a feature, refer to the [Feature Delivery Playbook](https://kayako.gitbooks.io/feature-delivery-playbook/content/feature-release-stages.html).
 
-
-
 ## A Side Note
 
-It isn't strictly true that engineers will not be enabling/disabling feature flags. There should be no need to enable/disable `feature-` feature flags for sure, as these enable user/customer facing features. However, as per the [Types of Feature Flags](/feature-flags/types-of-feature-flags.md) chapter, we may be implementing `ops-` based flags which enable/disable underlying code infrastructure type changes. These changes generally add no visible value to our customers and therefore aren't really the concern of the Growth and Support teams. These flags matter to engineers and we need to control and monitor when they are turned on and off. Therefore, `ops-` based feature flags are the exception to the rule where as an engineer, you will be in control of enabling and disabling the flag.
-
-
+It isn't strictly true that engineers will not be enabling/disabling feature flags. There should be no need to enable/disable `release-`  flags for sure, as these enable user/customer facing features. However, as per the [Types of Feature Flags](/feature-flags/types-of-feature-flags.md) chapter, we may be implementing `ops-` based flags which enable/disable underlying code infrastructure type changes. These changes generally add no visible value to our customers and therefore aren't really the concern of the Growth and Support teams. These flags matter to engineers and we need to control and monitor when they are turned on and off. Therefore, `ops-` based flags are the exception to the rule where, as an engineer, you will be in control of enabling and disabling the flag.
 

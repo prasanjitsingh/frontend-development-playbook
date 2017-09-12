@@ -16,9 +16,9 @@ A few things to note here are:
 
 1. Decide on what type of feature flag you are creating. See the [Types Of Feature Flags](/feature-flags/types-of-feature-flags.md) section for more information on this.
 
-2. Prefix the "Name" with the type of flag it is, eg, `[Feature]` . This makes it much easier to differentiate the flag types when scanning through the list of all flags. \(This can be changed after creation\)
+2. Prefix the "Name" with the type of flag it is, eg, `[Release]` . This makes it much easier to differentiate the flag types when scanning through the list of all flags. \(This can be changed after creation\)
 
-3. Enter the "Key" for which you will refer to the flag in your application code. Please ensure it is prefixed correctly, eg features are prefixed with `feature-`. \(This cannot be changed once created\)
+3. Enter the "Key" for which you will refer to the flag in your application code. Please ensure it is prefixed correctly, eg release flags are prefixed with `release-`. \(This cannot be changed once created\)
 
 4. "Description" is obviously optional but providing this will help Growth to understand what a feature flag is used for
 
@@ -27,8 +27,6 @@ A few things to note here are:
 6. I can’t imagine we’ll use many \(or any\) permanent flags. Checking this will mean that LD won’t prompt us to remove the flag even if it’s been rolled out to all users for some time
 
 7. Make sure your flag is available for the client-side SDK. It will be by default so you shouldn’t need to touch this option
-
-
 
 ## Setup The Flag
 
@@ -43,8 +41,6 @@ A few things to note here are:
 3. Feel free to turn the targeting on now so you don't need to circle back to do so later
 
 At this point the feature flag has been created in Launch Darkly and disabled by default.
-
-
 
 ## A Side Note
 

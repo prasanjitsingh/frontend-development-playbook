@@ -10,7 +10,7 @@ If your change is going to modify the API of a component or introduce component 
   onAttachFiles=(if (variation "rich-notes") (action "onAttachFiles"))
   placeholder=(t "generic.add_a_note")
   isErrored=isErrored
-  allowFormatting=(variation "rich-notes")
+  allowFormatting=(variation "release-rich-notes")
   isNote=true
   onTextChanged=(action "dispatch" "setReplyContents")
   value=state.replyContents
@@ -22,7 +22,7 @@ as |editor|}}
 **Consider:**
 
 ```js
-{{#if (variation "rich-notes")}}
+{{#if (variation "release-rich-notes")}}
   {{#ko-text-editor
     onAttachFiles=(action "onAttachFiles")
     placeholder=(t "generic.add_a_note")
