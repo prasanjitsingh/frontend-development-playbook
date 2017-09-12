@@ -6,5 +6,5 @@ As Kayako grows as a company and our customers rely more and more on our softwar
 
 This chapter sets out to define a common language and understanding around the stages a feature might pass through to move from development into our end users' hands
 
-The stages outlined in this book are based on the conversations and processes that have organically grown out of our company while striving to deliver higher quality software, faster.
+The release stages outlined in this book are based on the conversations and processes that have organically grown out of our company while striving to deliver higher quality software, faster.
 
