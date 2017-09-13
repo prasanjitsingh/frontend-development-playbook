@@ -1,5 +1,7 @@
 # Internal Release
 
+> This is a _**mandatory**_ release stage. All features will pass through this stage
+
 Once your feature has been merged in to `master` it's time to open it up to the entire company. This gives the Support team time to actively test your feature as a part of their day to day support role and also gives your feature some implicit "soaking" time.
 
 At this stage, your feature will be enabled for `support.kayako.com` as well as a list of other internal and developer instances so that everyone in the company can experience the magic that is your new feature.
@@ -8,7 +10,7 @@ At this stage, your feature will be enabled for `support.kayako.com` as well as 
 
 This stage is all about having the Support team provide focused testing on your particular feature. If this is a feature that is important to the daily tasks of the Support team then they will be actively using it throughout the day and will be ensuring it does what they expect and is bug free. If the feature is a little less relevant to the Support team's normal flow, Gary will assign a pool of support members to actively test the feature.
 
-By enabling internally we also get the benefit of "soaking" time. By enabling the feature for the internal test instances, demo instances and engineers' testing instances, the feature gets to just exist in the app eco-system and which allows us to ensure that it doesn't regress any, seemingly, unrelated parts of the app. 
+By enabling internally we also get the benefit of "soaking" time. By enabling the feature for the internal test instances, demo instances and engineers' testing instances, the feature gets to just exist in the app eco-system and which allows us to ensure that it doesn't regress any, seemingly, unrelated parts of the app.
 
 ## What is the output of this stage?
 
