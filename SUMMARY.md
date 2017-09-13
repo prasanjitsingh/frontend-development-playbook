@@ -27,4 +27,6 @@
   * [Release Stages](shipping-features/release-stages.md)
     * [Development](shipping-features/release-stages/development.md)
     * [Internal Release](shipping-features/release-stages/internal-release.md)
+    * [Beta Release](shipping-features/release-stages/beta-release.md)
+    * [Public Release](shipping-features/release-stages/public-release.md)
 
