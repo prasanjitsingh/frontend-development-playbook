@@ -1,0 +1,8 @@
+{
+  "plugins": ["localized-footer", "advanced-emoji"],
+  "pluginsConfig": {
+    "localized-footer": {
+      "hline": false
+    }
+  }
+}
