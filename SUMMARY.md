@@ -3,6 +3,12 @@
 ### Getting Started
 * [Overview](README.md)
 
+### Developing
+* [Overview](developing/README.md)
+* [Pull Requests](developing/pull-requests.md)
+* [JS Style Guidelines](developing/js-style-guidelines.md)
+* [CSS Style Guidelines](developing/css-style-guidelines.md)
+
 ### Feature Flags
 * [Overview](feature-flags/README.md)
 * [Feature Flagging Guidelines](feature-flags/feature-flagging-guidelines.md)
