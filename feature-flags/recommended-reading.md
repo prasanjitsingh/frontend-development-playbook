@@ -1,6 +1,4 @@
-# References
-
-[https://launchdarkly.com](https://launchdarkly.com)
+# Recommended Reading
 
 [https://featureflags.io](https://featureflags.io)
 
