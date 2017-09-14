@@ -6,9 +6,11 @@ In our experience we’ve found that feature flags can have different uses and i
 
 ## Release flags
 
-_Prefix:_ `release-`
-
-_Expected Lifespan_: **short/medium**
+> _Prefix:_ **`release-`**
+>
+> _Expected Lifespan_: **short/medium**
+>
+> _User this flag to: **wrap a feature for the purpose of incrementally rolling it out to customers through the feature release stages**_
 
 Used to incrementally enable a feature to users until such point that it’s rolled out to everyone.
 
@@ -18,9 +20,11 @@ A piece of work that is behind a `release-` flag should generally be in a state 
 
 ## Feature flags
 
-_Prefix:_ `feature-`
-
-_Expected Lifespan_: **long/permanent**
+> _Prefix:_ **`feature-`**
+>
+> _Expected Lifespan_: **long/permanent**
+>
+> _Use this flag to:_ **wrap a feature for the purpose of enabling it for a demo when the feature doesn't exist in the user's current plan**
 
 Used to override what is dictated by the user’s plan. If the user’s plan says a given feature is disabled, we can use a feature flag to enable it on a selective basis. These deal with _established_ features, rather than pre-release changes.
 
@@ -32,15 +36,15 @@ These flags are typically long-lived and may be permanent. They should be remove
 
 ## Operations flags
 
-_Prefix:_ `ops-`
-
-_Expected Lifespan_: **short**
+> _Prefix:_ **`ops-`**
+>
+> _Expected Lifespan_: **short**
+>
+> _User this flag to: **wrap refactoring or other code level architectural changes that do not directly relate to a customer focused feature**_
 
 Used to wrap operational aspects of the code. These flags might wrap code that enables extra instrumentation of code or changes that have unclear performance implications and therefore may need to be disabled in production quickly if needed.
 
 Refactoring should be flagged with an `ops-`  flag.
 
 These flags should be relatively short lived and removed once confidence is gained in the code change, however, it may not be uncommon to have a small number of longer lived "kill switches" around code that needs to be turned off at short notice.
-
-
 
