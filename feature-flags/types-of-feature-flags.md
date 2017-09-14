@@ -6,7 +6,7 @@ In our experience we’ve found that feature flags can have different uses and i
 
 ## Release flags
 
-> _Prefix:_ `release-`
+> _Prefix:_ **`release-`**
 >
 > _Expected Lifespan_: **short/medium**
 >
