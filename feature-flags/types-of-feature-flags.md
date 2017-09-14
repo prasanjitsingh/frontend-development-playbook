@@ -6,11 +6,11 @@ In our experience we’ve found that feature flags can have different uses and i
 
 ## Release flags
 
-> _Prefix:_ **`release-`**
+> _Prefix:_ `release-`
 >
 > _Expected Lifespan_: **short/medium**
 >
-> _User this flag to: **wrap a feature for the purpose of incrementally rolling it out to customers through the feature release stages**_
+> _Use this flag to: **wrap a feature for the purpose of incrementally rolling it out to customers through the feature release stages**_
 
 Used to incrementally enable a feature to users until such point that it’s rolled out to everyone.
 
@@ -20,7 +20,7 @@ A piece of work that is behind a `release-` flag should generally be in a state 
 
 ## Feature flags
 
-> _Prefix:_ **`feature-`**
+> _Prefix:_ `feature-`
 >
 > _Expected Lifespan_: **long/permanent**
 >
@@ -36,11 +36,11 @@ These flags are typically long-lived and may be permanent. They should be remove
 
 ## Operations flags
 
-> _Prefix:_ **`ops-`**
+> _Prefix:_ `ops-`
 >
 > _Expected Lifespan_: **short**
 >
-> _User this flag to: **wrap refactoring or other code level architectural changes that do not directly relate to a customer focused feature**_
+> _Use this flag to: **wrap refactoring or other code level architectural changes that do not directly relate to a customer focused feature**_
 
 Used to wrap operational aspects of the code. These flags might wrap code that enables extra instrumentation of code or changes that have unclear performance implications and therefore may need to be disabled in production quickly if needed.
 
