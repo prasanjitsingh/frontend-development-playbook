@@ -7,7 +7,8 @@
 * [Overview](developing/README.md)
 * [Pull Requests](developing/pull-requests.md)
 * [JS Style Guidelines](developing/js-style-guidelines.md)
-* [CSS Style Guidelines](developing/css-style-guidelines.md)
+* [CSS Style Guidelines](developing/css-style-guidelines/index.md)
+    * [CSS Code Quality](developing/css-style-guidelines/code-quality.md)
 
 ### Feature Flags
 * [Overview](feature-flags/README.md)
