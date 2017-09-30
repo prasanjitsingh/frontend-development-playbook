@@ -3,21 +3,21 @@
 
 ## Naming CSS classes
 
-#### What should I name the class?
+#### 1. What should I name the class?
 Since we are going with **modular CSS**, do not confuse with the naming conventions of **functional CSS**.
 This means the class name should tell about **what the element is**, not about the **function it performs**.
 
 _Example:_ Suppose you want to center align your page title, the class name should be `.page-title` rather than, say, `.align-center`.
 
 &nbsp;
-#### Do I need to follow [BEM naming methodology](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)?
+#### 2. Do I need to follow [BEM naming methodology](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)?
 No.
 Since your CSS has the local scope you don't have to worry prefixing the block names.
 
 In situations where you have quite a lot elements in your component or you find it difficult to name classes for each element, this might be an indication that you should consider breaking your component up into small ones, rather than following BEM.
 
 &nbsp;
-#### Make use of modifier classes
+#### 3. Make use of modifier classes
 Make your code more predictable both in HTML & CSS files with modifier classes.
 Another benefit is that you can always group it with it's main class.
 
@@ -35,7 +35,7 @@ _Example:_ `.is-` and `.has-` are commonly used modifiers in CSS.
 }
 ```
 &nbsp;
-#### Avoid using attribute selectors, instead assign class to every key selector
+#### 4. Avoid using attribute selectors, instead assign class to every key selector
 Do not (or try not to) nest attribute selectors within classes. These selectors do not really describe what the element is used for. Also, nesting makes your CSS code less readable.
 
 _Example:_
@@ -87,8 +87,8 @@ Apart from this, nesting also affects the performance of selectors.
 
 &nbsp;
 
-#### Do not prefix component name
-Doing this is absolutely unnecessary since Ember is already doing it for you.
+#### 5. Do not prefix component name
+Assuming that you're using some add-on to generate modular CSS, doing this is absolutely unnecessary and results in big ugly class names.
 
 _Example:_
 <br>
@@ -119,7 +119,7 @@ which compiles to `.onboarding-component__onboarding-heading` & `.onboarding-com
 
 &nbsp;
 
-#### How would I know whether I've named the classes correctly or not?
+#### 6. How would I know whether I've named the classes correctly or not?
 Nothing fancy here, just a simple trick:
 
 Once you're done, quickly self-review your CSS code, if you're able to understand roles of all the classes only by reading your CSS then 👍.
@@ -131,7 +131,7 @@ Once you're done, quickly self-review your CSS code, if you're able to understan
 <br>
 ## Improving readability
 
-#### Do not nest the classes unless really needed
+#### 1. Do not nest the classes unless really needed
 Use proper **parent-child** relationships. Avoid unnecessary specificity which is also against the CSS selector performance as mentioned above.
 
 _Example:_
@@ -160,7 +160,7 @@ _Example:_
 ```
 <br>
 
-#### Group pseudo and modifier classes
+#### 2. Group pseudo and modifier classes
 Keep pseudo (`:hover`, `:focus`, etc) and modifier (`.is-`, `.has-`) classes within the element's class to easily identify to which class they belong to.
 _Example:_
 
@@ -202,7 +202,7 @@ _Example:_
 
 <br>
 
-#### Use reverse `&` where the style is dependent on a parent element's class
+#### 3. Use reverse `&` where the style is dependent on a parent element's class
 _Example:_ Continuing with the above dropdown example, suppose the trigger element's style is dependent on it's container element:
 
 :thumbsdown:
@@ -229,7 +229,7 @@ _Example:_ Continuing with the above dropdown example, suppose the trigger eleme
 
 <br>
 
-#### It's a good practice to write the properties in order
+#### 4. It's a good practice to write the properties in order
 If you aren't already writing respecting the order, you're gonna feel it a bit difficult to follow in the beginning but believe me you will love it once you get used to it.
 Instead of sorting properties in alphabetical order, which actually isn't very helpful, consider grouping properties by **type**.
 
@@ -302,8 +302,8 @@ _Example:_
 
 <br>
 
-#### Use `:not()` instead of overriding property values
-This one is quite obvious but I've seen in many codebases, developers forget to use it. So it might be worth mentioning here.
+#### 5. Use `:not()` instead of overriding property values
+This one is quite obvious but it might be worth mentioning here since developers sometimes forget to use it.
 
 _Example:_
 
@@ -327,12 +327,12 @@ _Example:_
 
 <br>
 
-#### If you're going against the best practices
+#### 6. If you're going against the best practices
 If you end up writing such code like negative margins, `!important`, etc. and it seems the only best possible solution, **do not forget to add a comment describing your problem**.
 
 <br>
 
-#### Abstraction in modular CSS?
+#### 7. Abstraction in modular CSS?
 No. Keep your CSS within the same component. If you think that you're repeating the same code in several components, create mixins instead.
 
 <br>
@@ -342,7 +342,7 @@ No. Keep your CSS within the same component. If you think that you're repeating 
 <br>
 ## Avoiding mistakes
 
-#### Avoid using shorthands
+#### 1. Avoid using shorthands
 Yes, CSS shorthands are considered as anti-patterns unless you're changing all the values of a property.
 
 How we misuse shorthands:
@@ -398,7 +398,7 @@ and unknowingly, <code>line-height</code> is also set to <code>initial</code>.
 
 <br>
 
-#### Avoid `margin-top`, use `margin-bottom`
+#### 2. Avoid `margin-top`, use `margin-bottom`
 Unlike horizontal margins, vertical margins do collapse. To avoid this, it's a good idea to always keep the margins one direction. Choosing the one with the most use cases, good to go with `margin-bottom`.
 
 <br>
